@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+header {
+	width: 100%;
+	background: #000;
+}
+
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerlogo {
+	color: #fff;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 34px;
+}
+nav {
+	margin-top: 34px;
+	margin-left: 400px;
+}
+.topnav a{
+	color: #929292;
+	text-align:center;
+	padding: 12px 16px;
+	font-size: 16px;
+	font-weight: medium;
+}
+
+.topnav a:hover{
+	color: #0F7BFF;
+}
+.topnav .icon {
+	display: none;
+}
+.button{
+	padding: 12px 16px;
+	margin-left: 16px; 
+	background-color: #0063DD;
+	color: #FFFFFF;
+	padding: 8px 12px;
+	font-size: 16px;
+	border-radius: 20px;
+	font-weight: bold;
+
+}
+.button:hover{
+	border-color: #42433E; 
+}
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background: #fff;
+}
+main .main__bestapp{
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 100px 250px 50px 327px;
+}
+main .main__bestapp p{
+	color: #B7BABB;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+main .main__bestapp h1{
+	color: #333333;
+	font-size: 36px;
+}
+.buttondown{
+	padding: 12px 16px;
+	background-color: #0063DD;
+	color: #FFFFFF;
+	padding: 8px 12px;
+	font-size: 16px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+.buttontrial{
+	padding: 12px 16px;
+	margin-left: 10px;
+	background-color: #0063DD;
+	color: #FFFFFF;
+	padding: 8px 12px;
+	font-size: 16px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+main .phone{
+	text-align: center;
+	display: block;
+	padding: 100px 0 800px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+	nav{
+		margin-left:20%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	nav{
+		margin-left:10%;
+	}
+}
+
+
+@media screen and (max-width: 1000px) {
+	.topnav a {
+		display: none;
+	}
+	.topnav a.icon{
+		float:right;
+		margin-top: -17px;
+		display: block;
+		color: #fff;
+		font-size: 25px;
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+		left: -200px;
+	}
+	header .topnav.responsive{
+		height: 340px
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+		left: -20px;
+	}
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		right: : -200px;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+}
+	
+
+
+
+	
